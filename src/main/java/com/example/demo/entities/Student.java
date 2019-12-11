@@ -3,11 +3,14 @@ package com.example.demo.entities;
 import java.util.List;
 
 import javax.persistence.Column;
-
+import javax.persistence.Entity;
+import javax.persistence.Table;
+@Entity
+@Table(name="student")
 public class Student {
 	@Column
 	String name;
-	int id;
+	int student_id;
 	List<Course> courses;
 	public String getName() {
 		return name;
@@ -16,10 +19,10 @@ public class Student {
 		this.name = name;
 	}
 	public int getId() {
-		return id;
+		return student_id;
 	}
 	public void setId(int id) {
-		this.id = id;
+		this.student_id = id;
 	}
 	public List<Course> getCourses() {
 		return courses;
