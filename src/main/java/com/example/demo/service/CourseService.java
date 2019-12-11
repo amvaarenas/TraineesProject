@@ -8,10 +8,12 @@ import com.example.demo.dao.StudentRepository;
 import com.example.demo.entities.*;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 /**
  * CourseService
  */
+@Service
 public class CourseService {
 
     @Autowired
