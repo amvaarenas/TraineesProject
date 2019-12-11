@@ -8,7 +8,6 @@ public class TraineesProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TraineesProjectApplication.class, args);
-		//Holaa
 	}
 
 }
