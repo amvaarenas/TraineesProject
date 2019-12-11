@@ -9,6 +9,7 @@ public class Student {
 	String name;
 	int id;
 	List<Course> courses;
+	
 	public String getName() {
 		return name;
 	}
